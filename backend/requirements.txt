@@ -1,0 +1,9 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1          # <<< สำคัญ: ป้องกัน __about__ error
+python-jose==3.3.0
+pydantic==2.8.2
+python-dotenv==1.0.1
